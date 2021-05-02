@@ -43,3 +43,7 @@ public:
        return pq.size(); 
     }
 };
+
+// GREEDY
+// tc o(nlogn)
+// sc o(n)

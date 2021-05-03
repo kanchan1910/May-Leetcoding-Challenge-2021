@@ -1,6 +1,6 @@
 class Solution {
 public:
-    vector<int> runningSum(vector<int>& nums) 
+   vector<int> runningSum(vector<int>& nums) 
     {
         int n = nums.size();
         vector<int>prefix(n);

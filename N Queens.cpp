@@ -60,6 +60,7 @@ public:
                 tmp.push_back(str);
             }
             ans.push_back(tmp);
+            // if we return true here then only the first arrangement will be returned as our answer, but we want all the arrangements so, we will return false, so that it backtrack again and we can get the ne arranegment if excisting 
             return false;
         }
         // checking each column the the current row
